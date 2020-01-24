@@ -567,7 +567,7 @@ ModelImporter:
     - name: Character1_LeftFoot
       parentName: Character1_LeftLeg
       position: {x: 3.5527136e-17, y: -0.22833495, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
+      rotation: {x: -0.01744647, y: -0.026172938, z: -0.00045685144, w: 0.9995051}
       scale: {x: 1, y: 1, z: 1}
     - name: Character1_LeftToeBase
       parentName: Character1_LeftFoot
@@ -587,7 +587,7 @@ ModelImporter:
     - name: Character1_RightFoot
       parentName: Character1_RightLeg
       position: {x: -3.5527136e-17, y: -0.22833495, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
+      rotation: {x: -0.017446773, y: 0.025501305, z: 0.000445128, w: 0.9995225}
       scale: {x: 1, y: 1, z: 1}
     - name: Character1_RightToeBase
       parentName: Character1_RightFoot
@@ -642,7 +642,7 @@ ModelImporter:
     - name: Character1_LeftHandThumb3
       parentName: Character1_LeftHandThumb2
       position: {x: -0.045424767, y: -0.0136928, z: 0.032747842}
-      rotation: {x: 0.014136625, y: -0.026568333, z: 0.008497231, w: 0.9995109}
+      rotation: {x: 0.014136626, y: -0.026568335, z: 0.008497232, w: 0.99951094}
       scale: {x: 1, y: 1, z: 1}
     - name: Character1_LeftHandThumb4
       parentName: Character1_LeftHandThumb3
