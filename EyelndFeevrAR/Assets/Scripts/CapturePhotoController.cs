@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+#if PLATFORM_ANDROID
+using UnityEngine.Android;
+#endif 
+
 public class CapturePhotoController : MonoBehaviour
 {
     public CaptureAndSave captureAndSave;
@@ -25,13 +29,17 @@ public class CapturePhotoController : MonoBehaviour
 
     private void SuccessCapturePhoto(string msg)
     {
+#if PLATFORM_ANDROID
         AndroidNativeFunctions.ShowToast("Photo Saved to Gallery");
+#endif 
         uiToBeHidden.SetActive(true);
     }
 
     private void FailCapturePhoto(string msg)
     {
+#if PLATFORM_ANDROID
         AndroidNativeFunctions.ShowToast(msg);
+#endif 
         uiToBeHidden.SetActive(true);
     }
 }

@@ -2,6 +2,18 @@
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
     <ImageTarget name="page8" size="4.000000 6.005000" />
+    <ImageTarget name="Messy-Room" size="4.000000 2.908386" />
+    <ImageTarget name="ARChapter0Cover4" size="4.000000 6.181818" />
+    <ImageTarget name="ARChapter0Cover3" size="4.000000 6.181818" />
+    <ImageTarget name="ARChapter0Cover2" size="4.000000 6.181818" />
+    <ImageTarget name="ARChapter0Cover" size="4.000000 6.181818" />
+    <ImageTarget name="Welcometoiltopia" size="4.000000 3.003905" />
+    <ImageTarget name="Gaijin-Nimbus" size="4.000000 5.177993" />
+    <ImageTarget name="emo-Vanessa" size="4.000000 6.182380" />
+    <ImageTarget name="Emo-Tj" size="4.000000 6.182380" />
+    <ImageTarget name="emo-Roscoe" size="4.000000 6.182380" />
+    <ImageTarget name="emo-Pigsby" size="4.000000 6.182380" />
+    <ImageTarget name="emo_Cadbeary" size="4.000000 6.182380" />
     <ImageTarget name="page7" size="4.000000 6.050000" />
     <ImageTarget name="page6" size="4.000000 6.092616" />
     <ImageTarget name="page5" size="4.000000 5.935000" />
