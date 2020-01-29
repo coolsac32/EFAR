@@ -36,7 +36,9 @@ public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler
 
             foreach (Animator animator in myAnimator)
             {
+                animator.speed = 1f;
                 animator.gameObject.SetActive(true);
+
             }
             
 
@@ -50,6 +52,7 @@ public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler
             foreach (Animator animator in myAnimator)
             {
                 animator.gameObject.SetActive(false);
+
             }
         }
     }
