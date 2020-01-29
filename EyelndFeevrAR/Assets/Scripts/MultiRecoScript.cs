@@ -53,4 +53,30 @@ public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler
             }
         }
     }
+
+    public void pauseAnim()
+    {
+        // *** Start of animation code
+
+        foreach (Animator animator in myAnimator)
+        {
+            animator.speed = 0f;
+        }
+  
+        // *** end of animation code
+    }
+
+      
+    public void resumeAnim()
+    {
+
+        // *** Start of animation code
+
+        foreach (Animator animator in myAnimator)
+        {
+            animator.speed = 1f;
+        }
+
+        // *** end of animation code
+    }
 }
