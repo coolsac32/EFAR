@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class GaijinNimbusRecoScript : MonoBehaviour, ITrackableEventHandler
+public class Cover1RecoScript : MonoBehaviour, ITrackableEventHandler
 {
     public AudioClip musicFx;
-    public Animator[] myAnimator;
+    Animator myAnimator;
 
     private TrackableBehaviour mTrackableBehaviour;
 
     void Start()
     {
         //Fetch the Animator from your GameObject
-        myAnimator = GetComponentsInChildren<Animator>();
+        myAnimator = GetComponentInChildren<Animator>();
 
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
@@ -33,12 +33,7 @@ public class GaijinNimbusRecoScript : MonoBehaviour, ITrackableEventHandler
             //lancio la musica
             Debug.Log("sound");
             AudioManagerScript.current.PlaySound(musicFx);
-
-            foreach (Animator animator in myAnimator)
-            {
-                animator.gameObject.SetActive(true);
-            }
-            
+            myAnimator.gameObject.SetActive(true);
 
         }
         else
@@ -47,10 +42,7 @@ public class GaijinNimbusRecoScript : MonoBehaviour, ITrackableEventHandler
             AudioManagerScript.current.StopSound();
             //  Debug.Log("stoppo");
 
-            foreach (Animator animator in myAnimator)
-            {
-                animator.gameObject.SetActive(false);
-            }
+            myAnimator.gameObject.SetActive(false);
         }
     }
 }
