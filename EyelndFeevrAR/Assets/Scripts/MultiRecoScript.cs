@@ -40,7 +40,6 @@ public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler
                 animator.gameObject.SetActive(true);
 
             }
-            
 
         }
         else
