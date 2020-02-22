@@ -80,6 +80,34 @@ public class FirebaseAnalyticsInit : MonoBehaviour
         FirebaseAnalytics.LogEvent("progress", "percent", 0.4f);
     }
 
+    public void AnalyticsARPortal()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an AR Portal entry.");
+        FirebaseAnalytics.LogEvent("AR_Portal");
+    }
+
+    public void AnalyticsInfo()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an Info entry.");
+        FirebaseAnalytics.LogEvent("Info");
+    }
+
+    public void AnalyticsARWorld()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an AR World entry.");
+        FirebaseAnalytics.LogEvent("AR_World");
+    }
+
+    public void AnalyticsDigitalComics()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an Digital Comics entry.");
+        FirebaseAnalytics.LogEvent("Digital_Comics");
+    }
+
     public void AnalyticsScore()
     {
         // Log an event with an int parameter.
