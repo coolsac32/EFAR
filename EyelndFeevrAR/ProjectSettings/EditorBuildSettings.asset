@@ -12,11 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/AR Portal.unity
     guid: 1455853fb766a3b45b6982345e58663c
   - enabled: 1
-    path: Assets/Scenes/Photobooth.unity
+    path: Assets/Scenes/AR World Small.unity
     guid: 0a4d46de3e3a3ea4d966691667afffe6
   - enabled: 1
     path: Assets/Scenes/Info Screen.unity
     guid: 80fe4c3dae5c3cd4eb9b8bdaaa4f0df0
+  - enabled: 1
+    path: Assets/Scenes/AR World Big.unity
+    guid: 3394fbf4f56e6544a8069df23824325c
   - enabled: 0
     path: Assets/Scenes/Test Comic.unity
     guid: 4df01b2b21601b349bc8c729c01141bb

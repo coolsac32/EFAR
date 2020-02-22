@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "132717407215",
+    "firebase_url": "https://eyelnd-feevr-ar-app.firebaseio.com",
+    "project_id": "eyelnd-feevr-ar-app",
+    "storage_bucket": "eyelnd-feevr-ar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132717407215:ios:2ba4c2f3d4a689ba6f241a",
+        "android_client_info": {
+          "package_name": "com.IltopiaStudios.EyelndFeevr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132717407215-6ohhn7aq20un95g266k04ot2omuab924.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnVNtktynYxFHDamApzdN5xXpc_ie1vgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
