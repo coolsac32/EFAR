@@ -111,6 +111,34 @@ public class FirebaseAnalyticsInit : MonoBehaviour
         FirebaseAnalytics.LogEvent("Digital_Comics");
     }
 
+    public void AnalyticsTutorial()
+    {
+        // Log an event with a float.
+        DebugLog("Logging a Tutorial entry.");
+        FirebaseAnalytics.LogEvent("Tutorial");
+    }
+
+    public void AnalyticsARWorldBig()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an AR World Big entry.");
+        FirebaseAnalytics.LogEvent("AR_World_Big");
+    }
+
+    public void AnalyticsWebsite()
+    {
+        // Log an event with a float.
+        DebugLog("Logging a Website entry.");
+        FirebaseAnalytics.LogEvent("Website");
+    }
+
+    public void AnalyticsExitBtn()
+    {
+        // Log an event with a float.
+        DebugLog("Logging an Exit Button entry.");
+        FirebaseAnalytics.LogEvent("Exit_Button");
+    }
+
     public void AnalyticsScore()
     {
         // Log an event with an int parameter.

@@ -13222,6 +13222,17 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1705799425}
+          m_MethodName: AnalyticsTutorial
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!114 &657667509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29460,9 +29471,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1705799424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e77272f634d8301478bebaf77d2b3f7f, type: 3}
+  m_Script: {fileID: 11500000, guid: 02fd236483e0f8c498a3a60aa6f285a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIEnabled: 0
 --- !u!4 &1705799426
 Transform:
   m_ObjectHideFlags: 0
@@ -33856,6 +33868,17 @@ MonoBehaviour:
         - m_Target: {fileID: 1481450370}
           m_MethodName: Sceneloader
           m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1705799425}
+          m_MethodName: AnalyticsExitBtn
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
