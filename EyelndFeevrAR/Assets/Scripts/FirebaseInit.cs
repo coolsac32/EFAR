@@ -1,6 +1,8 @@
 ﻿using Firebase;
 using Firebase.Analytics;
 using UnityEngine;
+using Firebase.Extensions;
+using RobinBird.FirebaseTools.Storage.Addressables;
 
 public class FirebaseInit : MonoBehaviour
 {

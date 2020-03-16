@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Built In Data
+  m_EditorClassIdentifier: 
+  m_GroupName: Built In Data
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4e28c3701e4b16c45b2e6ecaa8512ca6
+  m_SerializeEntries:
+  - m_GUID: e2c542a2a7b7bcd44b4b2143a7ad4d9f
+    m_Address: Assets/StreamingAssets/Vuforia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  - m_GUID: EditorSceneList
+    m_Address: EditorSceneList
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  - m_GUID: Resources
+    m_Address: Resources
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 267a32b65c81b704d8e5e1546998e87b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5666cdde3daf94548a389b4cd3a32d8f, type: 2}

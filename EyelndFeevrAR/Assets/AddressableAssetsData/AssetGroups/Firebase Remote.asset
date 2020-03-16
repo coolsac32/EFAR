@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Firebase Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Firebase Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5003eed0249b7eb4c8942d5086d0432b
+  m_SerializeEntries:
+  - m_GUID: 0477199cbaed73e47b77fcd150a2f281
+    m_Address: Assets/Music
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  - m_GUID: 12ffea4373d32ea4e98e6b6015f2e097
+    m_Address: Assets/Page Files
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  - m_GUID: 3b8043b82b82200498b71505d4ade760
+    m_Address: Assets/Images/Comic Pages
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  - m_GUID: c358b2e0d353c6b49a8bb86a6d942ba1
+    m_Address: Assets/Editor/Vuforia/ImageTargetTextures/EyelndFeevrDB
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  - m_GUID: f53b9c017b5082a4e92438b8d1b368dc
+    m_Address: Assets/Prefabs/Chapters
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ARPages
+    m_mainAssetType: 
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 267a32b65c81b704d8e5e1546998e87b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a26530fb95479c44fb0aa24d9f5df1dc, type: 2}
+    - {fileID: 11400000, guid: 4077f3a0c98385f41bd13be3457f9a69, type: 2}

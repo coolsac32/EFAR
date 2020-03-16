@@ -12,6 +12,7 @@
         "integrationSavePath": "E:\\Unity\\EyelndFeevrAR",
         "selectedDCCApp": 0,
         "prefabSavePaths": [
+            "Prefabs",
             "."
         ],
         "fbxSavePaths": [

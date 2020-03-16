@@ -61,7 +61,7 @@ public class FirebaseMessagingInit : MonoBehaviour
             dependencyStatus = task.Result;
             if (dependencyStatus == Firebase.DependencyStatus.Available)
             {
-                InitializeFirebase();
+                InitializeFirebaseMessenger();
             }
             else
             {
@@ -72,7 +72,7 @@ public class FirebaseMessagingInit : MonoBehaviour
     }
 
     // Setup message event handlers.
-    void InitializeFirebase()
+    void InitializeFirebaseMessenger()
     {
         Firebase.Messaging.FirebaseMessaging.MessageReceived += OnMessageReceived;
         Firebase.Messaging.FirebaseMessaging.TokenReceived += OnTokenReceived;

@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Vuforia;
+using UnityEngine;
 
-public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler
+
+public class MultiRecoScript : MonoBehaviour, ITrackableEventHandler 
 {
+
+
     public AudioClip musicFx;
     public Animator[] myAnimator;
-
+    //private TrackableSettings m_TrackableSettings;
     private TrackableBehaviour mTrackableBehaviour;
 
-    void Start()
+  void Start()
     {
         //Fetch the Animator from your GameObject
         myAnimator = GetComponentsInChildren<Animator>();

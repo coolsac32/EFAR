@@ -28,7 +28,7 @@ public class FirebaseAnalyticsInit : MonoBehaviour
             dependencyStatus = task.Result;
             if (dependencyStatus == DependencyStatus.Available)
             {
-                InitializeFirebase();
+                InitializeFirebaseAnalytics();
             }
             else
             {
@@ -48,7 +48,7 @@ public class FirebaseAnalyticsInit : MonoBehaviour
     }
 
     // Handle initialization of the necessary firebase modules:
-    void InitializeFirebase()
+    void InitializeFirebaseAnalytics()
     {
         DebugLog("Enabling data collection.");
         FirebaseAnalytics.SetAnalyticsCollectionEnabled(true);
@@ -116,6 +116,13 @@ public class FirebaseAnalyticsInit : MonoBehaviour
         // Log an event with a float.
         DebugLog("Logging a Tutorial entry.");
         FirebaseAnalytics.LogEvent("Tutorial");
+    }
+
+    public void AnalyticsHowTo()
+    {
+        // Log an event with a float.
+        DebugLog("Logging a HowTo entry.");
+        FirebaseAnalytics.LogEvent("HowTo");
     }
 
     public void AnalyticsARWorldBig()

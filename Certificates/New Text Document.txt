@@ -1,0 +1,13 @@
+
+
+$ keytool -exportcert -alias androiddebugkey -keystore "E:\Unity\EFAR\Certificates\EFARSigning.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+
+keytool -exportcert -alias androiddebugkey -keystore "E:\Unity\EFAR\Certificates\EFARSigning.keystore" | openssl sha1 -binary | openssl
+base64
+
+keytool -exportcert -alias androiddebugkey -keystore "E:\Unity\EFAR\Certificates\EFARSigning.keystore" | openssl sha1 -binary | openssl
+base64
+
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\steve\.android\debug.keystore | C:\OpenSSL\bin\openssl sha1 -binary | C:\OpenSSL\bin\openssl base64
+
+ga0RGNYHvNM5d0SLGQfpQWAPGJ8=
