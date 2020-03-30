@@ -43,10 +43,10 @@ public class CameraSettings : MonoBehaviour
 
     public void SwitchFlashTorch(bool ON)
     {
-        if (CameraDevice.Instance.SetFlashTorchMode(ON))
+        if (CameraDevice.Instance.SetFlashTorchMode(true))
         {
             Debug.Log("Successfully turned flash " + ON);
-            mFlashTorchEnabled = ON;
+            mFlashTorchEnabled = true;
         }
         else
         {

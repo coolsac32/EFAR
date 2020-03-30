@@ -1621,7 +1621,6 @@ GameObject:
   - component: {fileID: 1862382585}
   - component: {fileID: 1862382589}
   - component: {fileID: 1862382590}
-  - component: {fileID: 1862382591}
   - component: {fileID: 1862382592}
   m_Layer: 0
   m_Name: FirebaseInit
@@ -1742,20 +1741,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fb_GUISkin: {fileID: 0}
   UIEnabled: 0
---- !u!114 &1862382591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862382584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfbe3652af35b164480f5a27991f9ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _label:
-    m_LabelString: Eyelnd Feevr Chapters
 --- !u!114 &1862382592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2266,36 +2251,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70afc83dc94b96644b3b453a6e0d3406, type: 3}
---- !u!1 &86535119520233127 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7681834452525554172, guid: 70afc83dc94b96644b3b453a6e0d3406,
-    type: 3}
-  m_PrefabInstance: {fileID: 86535119520233126}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &86535119520233128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86535119520233127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c4832635dd6684cbeabac4be31a12e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
-  progressText: {fileID: 0}
-  comicbookName:
-    m_LabelString: Eyelnd Feevr Chapters
 --- !u!114 &3300822179396808399 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3241905031098931305, guid: 70afc83dc94b96644b3b453a6e0d3406,
     type: 3}
   m_PrefabInstance: {fileID: 86535119520233126}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86535119520233127}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 733e6e1d2d4e2ae459983bcf7e979b00, type: 3}

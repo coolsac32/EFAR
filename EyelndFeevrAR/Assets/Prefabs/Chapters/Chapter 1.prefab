@@ -299,8 +299,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520110493977348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.006, y: 0.015520002, z: 0.002425}
-  m_LocalScale: {x: 0.067227215, y: 0.97, z: 0.097977236}
+  m_LocalPosition: {x: 0.03600025, y: 0.09312001, z: 0.01455}
+  m_LocalScale: {x: 0.4033633, y: 5.82, z: 0.58786345}
   m_Children:
   - {fileID: 4757520110936093618}
   m_Father: {fileID: 4757520110945987392}
@@ -878,7 +878,7 @@ Transform:
   m_GameObject: {fileID: 4757520110595481772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.59, y: 0, z: 0}
-  m_LocalScale: {x: 6.042553, y: 6.042553, z: 6.042553}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111918145602}
   - {fileID: 4757520111128177586}
@@ -897,15 +897,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page2
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_2
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5106382
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.042553
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: bc8657e36e307f3458c455f9df27df5a, type: 3}
 --- !u!114 &4757520110595481783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ Transform:
   m_GameObject: {fileID: 4757520110611048551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.06, y: 0, z: 0}
-  m_LocalScale: {x: 5.92, y: 5.92, z: 5.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111882737479}
   - {fileID: 4757520111111924752}
@@ -1049,15 +1049,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page4
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_4
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.48
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 5.92
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: d0d496f90154a3b498edc312de331135, type: 3}
 --- !u!114 &4757520110611048546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,7 +1181,7 @@ Transform:
   m_GameObject: {fileID: 4757520110611380472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.41, y: 0, z: 0}
-  m_LocalScale: {x: 6.181818, y: 6.181818, z: 6.181818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520110829690022}
   - {fileID: 4757520110493810527}
@@ -1200,15 +1200,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: ARChapter0Cover2
-  mPreserveChildSize: 0
+  mTrackableName: ARChapter0Cover2_scaled
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5454545
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.181818
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.5468277
+  mImageTargetType: 3
+  mWidth: 0.12929688
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 94f24dbcc3e443e7a44d0a071bc89700, type: 3}
 --- !u!114 &4757520110611380419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1326,7 +1326,7 @@ Transform:
   m_GameObject: {fileID: 4757520110618851826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.005, y: 6.005, z: 6.005}
   m_Children:
   - {fileID: 4757520111060318701}
   m_Father: {fileID: 4757520112139500810}
@@ -2457,7 +2457,7 @@ Transform:
   m_GameObject: {fileID: 4757520110796225954}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.78, y: 0, z: 0}
-  m_LocalScale: {x: 6.181818, y: 6.181818, z: 6.181818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 539499135828060872}
   - {fileID: 4757520112110406064}
@@ -2478,15 +2478,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: ARChapter0Cover
-  mPreserveChildSize: 0
+  mTrackableName: ARChapter0Cover_scaled
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5454545
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.181818
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.5468277
+  mImageTargetType: 3
+  mWidth: 0.12929688
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: a0211bca66084edc81e0c3ea0028554e, type: 3}
 --- !u!114 &4757520110796225965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2979,9 +2979,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520110829690023}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0045, y: 0.016, z: 0.0025}
-  m_LocalScale: {x: 0.0693064, y: 1, z: 0.101007454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.027818203, y: 0.098909095, z: 0.015454545}
+  m_LocalScale: {x: 0.4284396, y: 6.181818, z: 0.6244097}
   m_Children: []
   m_Father: {fileID: 4757520110611380423}
   m_RootOrder: 0
@@ -3078,7 +3078,7 @@ Transform:
   m_GameObject: {fileID: 4757520110847901516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.82, y: 5.82, z: 5.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111698784014}
   - {fileID: 4757520111703985466}
@@ -3097,15 +3097,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Page1
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_1
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.455
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 5.82
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 0e4d4c284f309a944939137def0b85b3, type: 3}
 --- !u!114 &4757520110847901527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3385,8 +3385,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520110868668477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.018, y: 0.015689977, z: 0.0024515588}
-  m_LocalScale: {x: 0.06796349, y: 0.9806235, z: 0.09905028}
+  m_LocalPosition: {x: -0.1068306, y: 0.09312001, z: 0.014550001}
+  m_LocalScale: {x: 0.4033633, y: 5.82, z: 0.58786345}
   m_Children:
   - {fileID: 4757520111174388801}
   m_Father: {fileID: 4757520111688251933}
@@ -4212,7 +4212,7 @@ Transform:
   m_GameObject: {fileID: 4757520110945987393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.39, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520112259557189}
   - {fileID: 4757520110493977347}
@@ -4232,15 +4232,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page3
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_3
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 3224c0594338bb744b23b57421c0d199, type: 3}
 --- !u!114 &4757520110945987404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4438,7 +4438,7 @@ Transform:
   m_GameObject: {fileID: 4757520110984649627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.94, y: 0, z: 0}
-  m_LocalScale: {x: 6.181818, y: 6.181818, z: 6.181818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111436098459}
   - {fileID: 4757520110421840661}
@@ -4457,15 +4457,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: ARChapter0Cover3
-  mPreserveChildSize: 0
+  mTrackableName: ARChapter0Cover3_scaled
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5454545
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.181818
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.5468277
+  mImageTargetType: 3
+  mWidth: 0.12929688
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 67d5fa5d3e44491f9292065bdbc468bb, type: 3}
 --- !u!114 &4757520110984649702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4891,8 +4891,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111003604417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.021, y: 0.01550708, z: 0.0024229812}
-  m_LocalScale: {x: 0.06717124, y: 0.9691924, z: 0.09789567}
+  m_LocalPosition: {x: 0.12981796, y: 0.09588623, z: 0.014978428}
+  m_LocalScale: {x: 0.41524038, y: 5.991371, z: 0.6051732}
   m_Children: []
   m_Father: {fileID: 4757520112519146369}
   m_RootOrder: 0
@@ -5397,7 +5397,7 @@ Transform:
   m_GameObject: {fileID: 4757520111050063491}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 23.68, y: 0, z: 0}
-  m_LocalScale: {x: 6.092616, y: 6.092616, z: 6.092616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111160463727}
   - {fileID: 4757520112386768334}
@@ -5417,15 +5417,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page6
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_6
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.523154
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.092616
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: eaee8a15648c7fb47b2ff10bc5dd4efa, type: 3}
 --- !u!114 &4757520111050063502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6498,9 +6498,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111160463712}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0.06, z: 0}
-  m_LocalScale: {x: 0.13540573, y: 0.13540573, z: 0.13540573}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -0.0000019073486, y: 0.36555696, z: 0}
+  m_LocalScale: {x: 0.82497513, y: 0.82497513, z: 0.82497513}
   m_Children:
   - {fileID: 4757520110572983922}
   - {fileID: 4757520111760963249}
@@ -6872,9 +6872,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111213138622}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 0.0000009536743, y: 0.3552, z: 0}
+  m_LocalScale: {x: 5.92, y: 5.92, z: 5.92}
   m_Children:
   - {fileID: 4757520111239935341}
   - {fileID: 4757520112221784859}
@@ -7806,8 +7806,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111436098460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.021, y: 0.01550708, z: 0.0024229812}
-  m_LocalScale: {x: 0.06717124, y: 0.9691924, z: 0.09789567}
+  m_LocalPosition: {x: 0.12981796, y: 0.09586194, z: 0.014978428}
+  m_LocalScale: {x: 0.41524038, y: 5.991371, z: 0.6051732}
   m_Children: []
   m_Father: {fileID: 4757520110984649626}
   m_RootOrder: 0
@@ -9308,7 +9308,7 @@ Transform:
   m_GameObject: {fileID: 4757520111688251934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 18.84, y: 0, z: 0}
-  m_LocalScale: {x: 5.935, y: 5.935, z: 5.935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111779712715}
   - {fileID: 4757520110868668476}
@@ -9328,15 +9328,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page5
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_5
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.48375
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 5.935
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 1db47a0bb7d7a0e428f3ca5390f63766, type: 3}
 --- !u!114 &4757520111688251929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9703,9 +9703,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111698784015}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0045, y: 0.016, z: 0.0025}
-  m_LocalScale: {x: 0.0693064, y: 1, z: 0.101007454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.026190002, y: 0.093120016, z: 0.014550001}
+  m_LocalScale: {x: 0.40336332, y: 5.8200006, z: 0.5878634}
   m_Children:
   - {fileID: 4757520112028486830}
   - {fileID: 4757520111500761556}
@@ -10156,8 +10156,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111729407282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.021, y: 0.01550708, z: 0.0024229812}
-  m_LocalScale: {x: 0.06717124, y: 0.9691924, z: 0.09789567}
+  m_LocalPosition: {x: 0.12611008, y: 0.09312002, z: 0.014550002}
+  m_LocalScale: {x: 0.4033633, y: 5.82, z: 0.58786356}
   m_Children:
   - {fileID: 4757520112357511065}
   m_Father: {fileID: 4757520112139500810}
@@ -10328,9 +10328,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111779712716}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5.935, y: 5.935, z: 5.935}
   m_Children:
   - {fileID: 4757520111567111366}
   - {fileID: 4757520111564229574}
@@ -10797,8 +10797,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111882737528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.003, y: 0.015729731, z: 0.0024577703}
-  m_LocalScale: {x: 0.06813569, y: 0.98310816, z: 0.09930125}
+  m_LocalPosition: {x: -0.017760277, y: 0.09312001, z: 0.01455}
+  m_LocalScale: {x: 0.40336332, y: 5.82, z: 0.5878634}
   m_Children:
   - {fileID: 4757520111023187131}
   m_Father: {fileID: 4757520110611048550}
@@ -11219,8 +11219,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520111918145603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.007, y: 0.0154, z: -0.0247}
-  m_LocalScale: {x: 0.06675379, y: 0.9631691, z: 0.10270615}
+  m_LocalPosition: {x: -0.04229784, y: 0.093055315, z: -0.14925106}
+  m_LocalScale: {x: 0.40336332, y: 5.82, z: 0.6206073}
   m_Children:
   - {fileID: 4757520110766384548}
   - {fileID: 4757520112185865694}
@@ -11925,9 +11925,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112007652823}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 0.0000019073486, y: 0.121, z: 0}
+  m_LocalScale: {x: 6.05, y: 6.05, z: 6.05}
   m_Children:
   - {fileID: 4757520110628337237}
   - {fileID: 4757520112354168382}
@@ -12043,8 +12043,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112033664431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.006, y: 0.015391736, z: 0.002404959}
-  m_LocalScale: {x: 0.06667162, y: 0.9619835, z: 0.09716751}
+  m_LocalPosition: {x: -0.03630066, y: 0.09312001, z: 0.014550002}
+  m_LocalScale: {x: 0.4033633, y: 5.82, z: 0.58786345}
   m_Children:
   - {fileID: 4757520112271150937}
   m_Father: {fileID: 4757520112116770145}
@@ -12218,9 +12218,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112110406065}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0041, y: 0.001, z: -0}
-  m_LocalScale: {x: 0.06607563, y: 1, z: 0.1014758}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025345802, y: 0.0061818184, z: 0}
+  m_LocalScale: {x: 0.40846753, y: 6.181818, z: 0.6273049}
   m_Children: []
   m_Father: {fileID: 4757520110796225953}
   m_RootOrder: 1
@@ -12317,7 +12317,7 @@ Transform:
   m_GameObject: {fileID: 4757520112116770146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 28.58, y: 0, z: 0}
-  m_LocalScale: {x: 6.05, y: 6.05, z: 6.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520112007652822}
   - {fileID: 4757520112033664430}
@@ -12337,15 +12337,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page7
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_7
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5125
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.05
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: e9f489de3838be441b792d3ec33164bf, type: 3}
 --- !u!114 &4757520112116770157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12469,7 +12469,7 @@ Transform:
   m_GameObject: {fileID: 4757520112139500811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 33.42, y: 0, z: 0}
-  m_LocalScale: {x: 6.005, y: 6.005, z: 6.005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520110618851825}
   - {fileID: 4757520111729407281}
@@ -12489,15 +12489,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: page8
-  mPreserveChildSize: 0
+  mTrackableName: Eyelnd_Feevr_Chapter_1_8
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.50125
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.005
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.545
+  mImageTargetType: 3
+  mWidth: 0.12944984
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: bb508a771ec82fd479bbffd3c790c301, type: 3}
 --- !u!114 &4757520112139500822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13242,8 +13242,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112259557190}
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0.06, z: 0}
-  m_LocalScale: {x: 0.022643333, y: 0.022643348, z: 0.022643335}
+  m_LocalPosition: {x: 0, y: 0.35999998, z: 0}
+  m_LocalScale: {x: 0.13586, y: 0.13586009, z: 0.13586004}
   m_Children:
   - {fileID: 4757520111007874702}
   - {fileID: 4757520111899218415}
@@ -13894,8 +13894,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112386768335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.009, y: 0.015284075, z: 0.002388137}
-  m_LocalScale: {x: 0.06620527, y: 0.9552547, z: 0.09648785}
+  m_LocalPosition: {x: -0.054834366, y: 0.09312, z: 0.014550001}
+  m_LocalScale: {x: 0.4033633, y: 5.82, z: 0.58786345}
   m_Children:
   - {fileID: 4757520110702458572}
   m_Father: {fileID: 4757520111050063490}
@@ -14683,8 +14683,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4757520112519146370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.51, y: 753, z: 0}
-  m_LocalScale: {x: 6.181818, y: 6.181818, z: 6.181818}
+  m_LocalPosition: {x: 42.51, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4757520111003604416}
   - {fileID: 4757520112185095521}
@@ -14703,15 +14703,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: ARChapter0Cover4
-  mPreserveChildSize: 0
+  mTrackableName: ARChapter0Cover4_scaled
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
-  mAspectRatio: 1.5454545
-  mImageTargetType: 0
-  mWidth: 4
-  mHeight: 6.181818
-  mRuntimeTexture: {fileID: 0}
+  mPreserveChildSize: 0
+  mAspectRatio: 1.5468277
+  mImageTargetType: 3
+  mWidth: 0.12929688
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 33e3d2eb845543a88f70e52992eb489f, type: 3}
 --- !u!114 &4757520112519146381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15319,7 +15319,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00999999
+      value: -0.061818123
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15329,7 +15329,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.081
+      value: -0.50072724
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15374,17 +15374,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.66693974
+      value: 4.1229
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.66693974
+      value: 4.1229
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.66693974
+      value: 4.1229
       objectReference: {fileID: 0}
     - target: {fileID: -3892094944673926808, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15879,7 +15879,7 @@ PrefabInstance:
     - target: {fileID: 1070906445049013960, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.03508726
+      value: 0.035087258
       objectReference: {fileID: 0}
     - target: {fileID: 1070906445049013960, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15889,7 +15889,7 @@ PrefabInstance:
     - target: {fileID: 1070906445049013960, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9980518
+      value: 0.99805176
       objectReference: {fileID: 0}
     - target: {fileID: 1070906445049013960, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15909,7 +15909,7 @@ PrefabInstance:
     - target: {fileID: 1304675899303670927, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.16713654
+      value: 0.16713655
       objectReference: {fileID: 0}
     - target: {fileID: 1304675899303670927, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15919,7 +15919,7 @@ PrefabInstance:
     - target: {fileID: 1304675899303670927, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.011365083
+      value: -0.011365084
       objectReference: {fileID: 0}
     - target: {fileID: 1304675899303670927, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15979,7 +15979,7 @@ PrefabInstance:
     - target: {fileID: 3158822783279920920, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.028478999
+      value: -0.028479002
       objectReference: {fileID: 0}
     - target: {fileID: 3158822783279920920, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -15989,7 +15989,7 @@ PrefabInstance:
     - target: {fileID: 3158822783279920920, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.04301319
+      value: 0.043013193
       objectReference: {fileID: 0}
     - target: {fileID: 3158822783279920920, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -16494,22 +16494,22 @@ PrefabInstance:
     - target: {fileID: 7628148142526884101, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.77315855
+      value: 0.7731585
       objectReference: {fileID: 0}
     - target: {fileID: 7628148142526884101, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.037198506
+      value: 0.037198503
       objectReference: {fileID: 0}
     - target: {fileID: 7628148142526884101, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.037095875
+      value: 0.03709587
       objectReference: {fileID: 0}
     - target: {fileID: 7628148142526884101, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.63203335
+      value: 0.6320333
       objectReference: {fileID: 0}
     - target: {fileID: 7628148142526884101, guid: 03913c8804e64d745b09c5f4447f12b6,
         type: 3}
@@ -16875,7 +16875,7 @@ PrefabInstance:
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.775
+      value: 4.790909
       objectReference: {fileID: 0}
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
@@ -16885,17 +16885,17 @@ PrefabInstance:
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}
@@ -16921,6 +16921,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0378363
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0378363
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151129638047933452, guid: 46810238bdb944249951b317c94acbf7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0378363
       objectReference: {fileID: 0}
     - target: {fileID: 5783976554394745031, guid: 46810238bdb944249951b317c94acbf7,
         type: 3}

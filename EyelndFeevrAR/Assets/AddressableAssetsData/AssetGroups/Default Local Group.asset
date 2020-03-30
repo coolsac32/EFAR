@@ -16,7 +16,17 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e04111295aba1684c925f27e0f766cb7
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: d21ff2bdbc5287a449baae8e6f55082f
+    m_Address: Assets/1 Test/Slices/SliceLoader.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8413890496322321465, guid: d21ff2bdbc5287a449baae8e6f55082f,
+      type: 3}
+    m_TargetAsset: {fileID: 8413890496322321465, guid: d21ff2bdbc5287a449baae8e6f55082f,
+      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 267a32b65c81b704d8e5e1546998e87b, type: 2}
   m_SchemaSet:

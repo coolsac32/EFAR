@@ -699,7 +699,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -1216,9 +1216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: ARChapter0Cover3
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5454545
   mImageTargetType: 0
   mWidth: 4
@@ -1565,9 +1565,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: Welcometoiltopia
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.75097626
   mImageTargetType: 0
   mWidth: 4
@@ -2398,9 +2398,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: Gaijin-Nimbus
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.2944982
   mImageTargetType: 0
   mWidth: 4
@@ -2530,7 +2530,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -3421,7 +3421,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -3867,9 +3867,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: Emo-Tj
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.545595
   mImageTargetType: 0
   mWidth: 4
@@ -4785,9 +4785,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: ARChapter0Cover4_scaled
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5468278
   mImageTargetType: 3
   mWidth: 3.8789062
@@ -5058,7 +5058,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -5253,9 +5253,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: emo-Pigsby
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.545595
   mImageTargetType: 0
   mWidth: 4
@@ -5378,7 +5378,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -5753,9 +5753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page6
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.523154
   mImageTargetType: 0
   mWidth: 4
@@ -6138,9 +6138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page2
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5106382
   mImageTargetType: 0
   mWidth: 4
@@ -7041,7 +7041,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 535188806}
-  - component: {fileID: 535188807}
   m_Layer: 0
   m_Name: ChapterLoader
   m_TagString: Untagged
@@ -7063,35 +7062,6 @@ Transform:
   m_Father: {fileID: 1869309445}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &535188807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535188805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2092387ac1d4ce240a00bb458848a2cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prints: {fileID: 5227498198669373650, guid: 1e1302e0000c32646a04fc7fe7500021, type: 3}
-  chapter1: {fileID: 4757520111284093991, guid: f42f8768205123f4aabcd2b88ffd0951,
-    type: 3}
-  chapter2: {fileID: 0}
-  chapter3: {fileID: 0}
-  chapter4: {fileID: 0}
-  chapter5: {fileID: 0}
-  chapter6: {fileID: 0}
-  chapter7: {fileID: 0}
-  chapter8: {fileID: 0}
-  chapter9: {fileID: 0}
-  chapter10: {fileID: 0}
-  chapter11: {fileID: 0}
-  chapter12: {fileID: 0}
-  chapter13: {fileID: 0}
-  chapter14: {fileID: 0}
-  chapter15: {fileID: 0}
 --- !u!1 &542697442
 GameObject:
   m_ObjectHideFlags: 0
@@ -7317,9 +7287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page8
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.50125
   mImageTargetType: 0
   mWidth: 4
@@ -7825,9 +7795,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: emo_Cadbeary
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.545595
   mImageTargetType: 0
   mWidth: 4
@@ -10849,7 +10819,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -11269,9 +11239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page5
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.48375
   mImageTargetType: 0
   mWidth: 4
@@ -11749,7 +11719,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -14544,9 +14514,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page3
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 4
@@ -15009,9 +14979,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page7
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5125
   mImageTargetType: 0
   mWidth: 4
@@ -15564,7 +15534,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -16703,9 +16673,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: ARChapter0Cover4
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5454545
   mImageTargetType: 0
   mWidth: 4
@@ -16756,7 +16726,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -17175,9 +17145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: Page1
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.455
   mImageTargetType: 0
   mWidth: 4
@@ -21701,9 +21671,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: ARChapter0Cover2
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.5454545
   mImageTargetType: 0
   mWidth: 4
@@ -22721,7 +22691,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -23246,7 +23216,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -26994,7 +26964,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -27482,7 +27452,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -27973,7 +27943,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -28732,9 +28702,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: page4
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.48
   mImageTargetType: 0
   mWidth: 4
@@ -29055,7 +29025,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -29430,7 +29400,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -29725,7 +29695,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -31064,9 +31034,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: emo-Vanessa
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.545595
   mImageTargetType: 0
   mWidth: 4
@@ -31497,7 +31467,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -32419,9 +32389,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: Messy-Room
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 0.7270965
   mImageTargetType: 0
   mWidth: 4
@@ -32471,7 +32441,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -32666,9 +32636,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: emo-Roscoe
-  mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/EyelndFeevrDB.xml
+  mPreserveChildSize: 0
   mAspectRatio: 1.545595
   mImageTargetType: 0
   mWidth: 4
