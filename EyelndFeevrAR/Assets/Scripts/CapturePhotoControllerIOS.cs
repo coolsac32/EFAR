@@ -20,7 +20,7 @@ public class CapturePhotoControllerIOS : MonoBehaviour
     public void CapturePhoto()
     {
         uiToBeHidden.SetActive(false);
-        captureAndSave.CaptureAndSaveToAlbum();
+        //captureAndSave.CaptureAndSaveToAlbum();
     }
 
     private void SuccessCapturePhoto(string msg)
